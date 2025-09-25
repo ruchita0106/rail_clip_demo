@@ -1,0 +1,20 @@
+Table 1: Vendor Details,,,,,,
+vendor_id,vendor_name,vendor_location,contact_number,mail_id,,
+V001,SteelTech Industries Pvt Ltd,"Nagpur, Maharashtra",-9876543119,sales@steeltech.example.com,,
+V002,Metro Rail Supplies,"Bhilai, Chhattisgarh",-9822334364,contact@metrorailsup.example.com,,
+V003,Precision Track Fittings,"Howrah, West Bengal",-9812345587,info@precisiontrack.example.com,,
+V004,Zenith Steel Works,"Jamshedpur, Jharkhand",-9778898910,zenith@steelworks.example.com,,
+,,,,,,
+Table 2: Part Details,,,,,,
+part_id,part_name,vendor_id,lot_no,manufacturing_date,expiry_date,warranty
+P001,Rail Clip,V001,RC-2025-01,25-09-2025,25-09-2035,10 years against manufacturing defects
+P002,Rail Clip,V002,RC-2025-02,26-08-2025,26-08-2035,10 years against manufacturing defects
+P003,Rail Clip,V003,RC-2025-03,27-07-2025,27-07-2035,10 years against manufacturing defects
+P004,Rail Clip,V004,RC-2025-04,27-06-2025,27-06-2035,10 years against manufacturing defects
+,,,,,,
+Table 3: Fitting Details,,,,,,
+fitting_id,part_id,trade_sec,fitting_date,fitted_by,position_details_location,
+F001,P001,Track Sec-A,27-01-2026,Anil Kumar (Sr. Tech.),"Bhilai, Chhattisgarh (Bhilai Power House Station)",
+F002,P002,Track Sec-B,14-11-2025,Anil Kumar (Sr. Tech.),"Sambalpur, Odisha (Sambalpur Station)",
+F003,P003,Track Sec-C,15-10-2025,Vikram Sharma (Technician),"Howrah, West Bengal (Howrah Junction)",
+F004,P004,Track Sec-D,22-07-2025,Anil Kumar (Sr. Tech.),"Howrah, West Bengal (Howrah Junction)",
